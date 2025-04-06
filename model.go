@@ -27,7 +27,7 @@ type Meta struct {
 	TotalItemCount uint64 `json:"total_item_count,omitempty"`
 	// Limit is the limit used within the request.
 	// If not defined in the query parameters, this should be the default value used in the service endpoint.
-	Limit int64 `json:"limit,omitempty"`
+	Limit uint64 `json:"limit,omitempty"`
 	// Offset is the offset used within the request.
-	Offset int64 `json:"offset,omitempty"`
+	Offset uint64 `json:"offset,omitempty"`
 }
