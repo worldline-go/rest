@@ -46,8 +46,8 @@ github.com/valyala/bytebufferpool v1.0.0 h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6Kllzaw
 github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyCJ6HpOuEn7z0Csc=
 github.com/valyala/fasttemplate v1.2.2 h1:lxLXG0uE3Qnshl9QyaK6XJxMXlQZELvChBOCmQD0Loo=
 github.com/valyala/fasttemplate v1.2.2/go.mod h1:KHLXt3tVN2HBp8eijSv/kGJopbvo7S+qRAEEKiv+SiQ=
-github.com/worldline-go/logz/logecho v0.2.0 h1:9loe+htSEcm3OElNZUPXmy31s1SgtmQg9sbBD2uFvtk=
-github.com/worldline-go/logz/logecho v0.2.0/go.mod h1:/gFFbDzeK85WF3qg2bzHgESGPTrJ/+WzLKtjk2zX6sY=
+github.com/worldline-go/logz v0.5.1 h1:jpbKUd1FbecEzs7/p1zFH7tFtQ5demmc89Fa2YTHL/Q=
+github.com/worldline-go/logz v0.5.1/go.mod h1:CbiHbwLTA6oKud62HbmfwG5fgSZ6ppVbkSdRv44X8Vc=
 github.com/worldline-go/tell v0.6.0 h1:lRGwYWprpt45dnUo5Ra0zP/eCHT7CEpOgSAeay+Fddc=
 github.com/worldline-go/tell v0.6.0/go.mod h1:HZFj4Q/QFByQACa+XvwJ8jClx9B+RLCoqjeCg3wk6Iw=
 github.com/worldline-go/tell/metric/metricecho v0.6.0 h1:hSKqRkiV93UpJgAN1VcLT4h6zxIoor6nkyLpiLFdGe0=

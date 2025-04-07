@@ -6,7 +6,7 @@ require (
 	github.com/go-playground/validator/v10 v10.26.0
 	github.com/labstack/echo/v4 v4.13.3
 	github.com/rs/zerolog v1.34.0
-	github.com/worldline-go/logz/logecho v0.2.0
+	github.com/worldline-go/logz v0.5.1
 	github.com/worldline-go/tell/metric/metricecho v0.6.0
 	github.com/ziflex/lecho/v3 v3.7.0
 	go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho v0.60.0
