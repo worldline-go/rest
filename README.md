@@ -1,3 +1,3 @@
-# Rest
+# rest
 
-Rest-API helper for Go.
+rest-API helper for Go.

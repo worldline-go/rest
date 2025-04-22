@@ -38,7 +38,7 @@ func (s *Server) Start(addr string) error {
 
 	log.Info().Msgf("starting server on port %s", s.server.Addr)
 
-	if err := s.server.ListenAndServe(); err != nil {
+	if err := s.server.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {
 		return fmt.Errorf("failed to start server: %w", err)
 	}
 
@@ -61,7 +61,7 @@ func (s *Server) Stop() error {
 	ctx, cancel := context.WithTimeout(context.Background(), ShutdownTimeout)
 	defer cancel()
 
-	if err := s.server.Shutdown(ctx); err != nil && !errors.Is(err, http.ErrServerClosed) {
+	if err := s.server.Shutdown(ctx); err != nil {
 		return fmt.Errorf("failed to shutdown service: %w", err)
 	}
 

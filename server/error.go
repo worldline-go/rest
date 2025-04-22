@@ -33,6 +33,10 @@ func HTTPErrorHandler(err error, c echo.Context) {
 		case error:
 			errStr = m.Error()
 		}
+
+		if he.Internal != nil {
+			errStr = he.Internal.Error()
+		}
 	}
 
 	// Send response
