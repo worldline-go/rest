@@ -2,7 +2,6 @@ package serverecho
 
 import (
 	"context"
-	"time"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -12,8 +11,6 @@ import (
 	"github.com/ziflex/lecho/v3"
 	"go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho"
 )
-
-var ShutdownTimeout = 10 * time.Second
 
 func New(ctx context.Context, name string) (*echo.Echo, error) {
 	// echo server
